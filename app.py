@@ -27,7 +27,7 @@ def generate():
             thinking_budget=-1,
         ),
         response_mime_type="text/plain",
-    )
+    
 
     for chunk in client.models.generate_content_stream(
         model=model,
