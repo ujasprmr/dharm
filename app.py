@@ -12,7 +12,7 @@ import os
 def generate():
     
         api_key=os.environ.get("AIzaSyCQYZDUws4GzHOqop6-FC7UlMS4jXc3P-U"),
-    )
+    
 
     model = "gemini-2.5-pro"
     contents = [
