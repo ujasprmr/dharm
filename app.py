@@ -10,7 +10,7 @@ import os
 
 
 def generate():
-    client = genai.Client(
+    
         api_key=os.environ.get("AIzaSyCQYZDUws4GzHOqop6-FC7UlMS4jXc3P-U"),
     )
 
@@ -38,4 +38,4 @@ def generate():
         print(chunk.text, end="")
 
 if __name__ == "__main__":
-    generate()
+    
