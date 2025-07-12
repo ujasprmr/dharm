@@ -5,7 +5,8 @@ import base64
 import os
 streamlit
 google-generativeai
-from google. genai import types
+streamlit
+from Google. Genai import types
 
 
 def generate():
@@ -16,7 +17,7 @@ def generate():
     model = "gemini-2.5-pro"
     contents = [
         types.Content(
-            role="user",
+            role "user",
             parts=[
                 types.Part.from_text(text="""INSERT_INPUT_HERE"""),
             ],
