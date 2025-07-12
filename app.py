@@ -22,7 +22,7 @@ def generate():
                 types.Part.from_text(text="""INSERT_INPUT_HERE"""),
             ],
         ),
-    ]
+    
     generate_content_config = types.GenerateContentConfig(
         thinking_config = types.ThinkingConfig(
             thinking_budget=-1,
