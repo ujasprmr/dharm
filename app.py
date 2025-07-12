@@ -32,7 +32,7 @@ def generate():
         model=model,
         contents=contents,
         config=generate_content_config,
-    ):
+    
         print(chunk.text, end="")
 
 if __name__ == "__main__":
