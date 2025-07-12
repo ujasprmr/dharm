@@ -29,7 +29,6 @@ def generate():
         response_mime_type="text/plain",
     
 
-    for chunk in client.models.generate_content_stream(
         model=model,
         contents=contents,
         config=generate_content_config,
