@@ -3,7 +3,7 @@
 
 import base64
 import os
-streamlit
+File "/mount/src/dharm/app.py"
 google-generativeai
 streamlit
 from Google. Genai import types
