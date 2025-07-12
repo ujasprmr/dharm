@@ -15,7 +15,7 @@ def generate():
     
 
     
-    contents = [
+    
         types.Content(
             "role", "user",
             parts=[
